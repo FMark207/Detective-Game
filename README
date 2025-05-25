@@ -1,0 +1,21 @@
+Útmutató (hogy ne kapj agyvérzést letöltést közben mint én)
+
+BACKEND:
+
+1. Aktiváld a virtualis környezetet: env->activate.bat
+2. lépj be a backend mappába, pip install -r requirements.txt
+3. Mivel a secret key, egy secret agyfaszgenerátor ezért valami tetszőleges stringre át kell írni a settingsen belül a backendben (pl: SECRET_KEY = 70m73sih+$=5)j=v#&dv%w%n^cjjq-3a)o7vsga%ho1xz_ihg8)
+
+FRONTEND:
+
+1. lépj be a frontend/Detective mappába és npm install vite
+2. npm run dev
+!Fontos hogy fusson egyszerre külön cmd-ből a Django és a React server!
+
+Ha ezek megvannak akkor ha minden igaz müködnie kell.
+
+LEGFONTOSABB LÉPÉS:
+
+!!! NE LEGYEN DARK MODE-BAN A CHROME-OD !!!
+
+HONORABLE MENTION: Köszönöm a teszteléshez a segítségek Büdi Milán!
